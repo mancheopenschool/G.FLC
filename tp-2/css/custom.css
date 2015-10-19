@@ -1,0 +1,52 @@
+.container:first-child{
+    border-bottom: solid 4px #058B78;
+    background-color: #e8e8e8;
+    height: 25px;
+}
+
+#date{
+    text-align: center;
+    color: #747474;
+    font-size: 12px;
+    font-family: Georgia;
+    margin-top: 15px;
+}
+#h-top {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 20px;
+    width: auto;
+    font-size: 14px;
+    color: #bababa;
+    text-align: center;
+}
+#toprech{
+    margin-top: 40px;
+    height: 15px;
+}
+#recherche {
+    height: 25px;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+#logolm {
+    display: inline-block;
+    height: 24px;
+    width: auto;
+    opacity: 0.6;
+    margin-top: -15px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia;
+    margin: 2px;
+}
+h1 {
+    font-size: 48px;
+    color: #058B78;
+    text-align: center;
+}
+
+p{
+    font-family: Arial;
+    margin: 0;
+}
