@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 <body>
+
 <!--navbar-->
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container-fluid">
@@ -42,7 +43,7 @@
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Evénements</a></li>
+                <li><a href="#events">Evénements</a></li>
                 <li><a href="#">Partenaires</a></li>
                 <li><a href="#foot">Contact</a></li>
                 <li><a href="#">F.A.Q.</a></li>
@@ -52,16 +53,17 @@
 </nav>
 <!--inhead-->
 <div class="docs-header text-center" id="head">
-    <div class="container">
+    <div class="container-fluid">
         <h1>MOS</h1>
 
         <p>think twice, code once !</p>
     </div>
 </div>
+<div class="container">
+    <div class="col-md-9">
 <!--concept and informations-->
-<div class="container-fluid" id="underhead">
-    <div class="row">
-        <div class="col-md-12">
+    <div class="row " id="underhead">
+        <div class="col-md-12 col-xs-12" >
             <span class="fa fa-info fa-B"></span>
 
             <h3>Concept</h3>
@@ -130,62 +132,107 @@
             </div>
         </div>
     </div>
-    <!--footer-->
-    <footer class="docs-footer navbar-fixed-bottom" role="contentinfo" id="foot">
-        <div class="container">
-            <div class="social">
-                <ul class="social-buttons">
-                    <a href="https://twitter.com/50_open_school">
-                        <i class="fa fa-twitter-square fa-M"></i>
-                    </a>
-                    <a href="https://www.facebook.com/pages/Manch-Open-School/907657159297010">
-                        <i class="fa fa-facebook fa-M"></i>
-                    </a>
-                </ul>
-            </div>
-            <p>Designed and built with love by <a href="#modaldsg" data-toggle="modal">Les Bulots Codeurs</a></p>
+    </div>
+    <div class="col-md-3" id="events">
+        <div class="list-group" >
+            <a class="list-group-item">
+                <h5 class="list-group-item-heading">Evénements</h5>
+            </a>
+            <a class="list-group-item">
+                <h5 class="list-group-item-heading">Le 05/05/2015</h5>
+                <p> La MoS embauche un(e) assistant(e) de formation. Pour en savoir plus, s’adresser au pole emploi de Granville.</p>
+            </a>
+            <a class="list-group-item">
+                <h5 class="list-group-item-heading">Le 02/06/2015</h5>
+                <p>La MoS effectuera une présentation de son action auprès des entreprises du pays granvillais, lors de l’assemblée générale du groupement Initiatives Granville Terre & Mer.</p>
+            </a>
+            <a class="list-group-item">
+                <h5 class="list-group-item-heading">Le 29/06/2015</h5>
+                <p>Information collective et recrutement au pôle emploi Granville</p>
+            </a>
+            <a class="list-group-item">
+                <h5 class="list-group-item-heading">Le 07/09/2015</h5>
+                <p>Sélection finale des candidats – attention, seulement 20 places à pourvoir !
+                    <br />Information collective et recrutement au pôle emploi Granville « Bis »</p>
+            </a>
+            <a class="list-group-item">
+                <h5 class="list-group-item-heading">Le 16/09/2015</h5>
+                <p>Hackathon @Elysée ! La MoS participe</p>
+            </a>
+            <a class="list-group-item">
+                <h5 class="list-group-item-heading">Le 21/09/2015</h5>
+                <p>Première rentrée de la MoS</p>
+            </a>
+            <a class="list-group-item">
+                <h5 class="list-group-item-heading">Le 29/10/2015</h5>
+                <p>Inauguration officielle de la MoS</p>
+            </a>
         </div>
-        <!--modal design by...-->
-        <div class="modal fade" id="modaldsg" role="note">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h3>Les Bulots Codeurs</h3>
-                        <p><b>PREMIERE MOUTURE</b></p>
+    </div>
+</div>
+
+<!--footer-->
+<footer class="docs-footer navbar-fixed-bottom" role="contentinfo" id="foot">
+    <div class="container-fluid">
+        <div class="social">
+            <ul class="social-buttons">
+                <a href="https://twitter.com/50_open_school">
+                    <i class="fa fa-twitter-square fa-M"></i>
+                </a>
+                <a href="https://www.facebook.com/pages/Manch-Open-School/907657159297010">
+                    <i class="fa fa-facebook fa-M"></i>
+                </a>
+            </ul>
+        </div>
+        <p>Designed and built with love by <a href="#modaldsg" data-toggle="modal">Les Bulots Codeurs</a></p>
+    </div>
+</footer>
+<!--modal footer-->
+<div class="modal fade text-center" id="modaldsg" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Les Bulots Codeurs</h3>
+
+                <p><b>PREMIERE MOUTURE</b></p>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img class="imgmod" src="images/Bulot-800x800.png">
+
+                        <p>Identité1</p>
                     </div>
-                    <div class="modal-body">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <img class="imgmod" src="images/Bulot-800x800.png">
-                                <p>Identité1</p>
-                            </div>
-                            <div class="col-md-6">
-                                <img class="imgmod" src="images/Bulot-800x800.png">
-                                <p>Identité2</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <img class="imgmod" src="images/Bulot-800x800.png">
-                                <p>Identité3</p>
-                            </div>
-                            <div class="col-md-6">
-                                <img class="imgmod" src="images/Bulot-800x800.png">
-                                <p>Identité4</p>
-                            </div>
-                        </div>
+                    <div class="col-md-6">
+                        <img class="imgmod" src="images/Bulot-800x800.png">
+
+                        <p>Identité2</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img class="imgmod" src="images/Bulot-800x800.png">
+
+                        <p>Identité3</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="imgmod" src="images/Bulot-800x800.png">
+
+                        <p>Identité4</p>
                     </div>
                 </div>
             </div>
+            <div class="modal-footer">
+                <a class="btn btn-primary" data-dismiss="modal">Fermer</a>
+            </div>
         </div>
+    </div>
 </div>
-
-</footer>
-
 
 <!-- jQuery (Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+<script src="custom.js"></script>
 </body>
 </html>
