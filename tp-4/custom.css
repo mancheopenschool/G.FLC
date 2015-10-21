@@ -1,0 +1,110 @@
+.navbar{
+    background-color: #ffffff;
+    border-bottom: double #0098d3;
+}
+.navbar-default .navbar-brand {
+    color: #0098d3;
+}
+.navbar-default .navbar-toggle {
+    border-color: #0098d3;
+    border-radius: 10%;
+}
+.navbar-default .navbar-toggle:focus {
+    background-color: #0098d3;
+}
+.navbar-default .navbar-toggle:hover {
+    background-color: #0098d3;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #0098d3;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:active, .navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #ffffff;
+}
+
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 2px 4px;
+    margin-top: 15px;
+    margin-right: 5px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+}
+.nav.navbar-nav>li>a:hover{
+    color: #ffffff;
+    background-color: #0098d3;
+    transition-duration: 1s;
+    box-shadow: inset 0 5px 0 0 rgba(255, 255, 255, 0.6);
+    border-radius: 10%;
+    text-align: center;
+}
+.row{
+    margin: 0;
+}
+span{
+    color: #ffffff
+}
+#top{
+    margin: 0;
+}
+#head{
+    background-color: #0098d3;
+    padding: 30px;
+    margin-top: 50px;
+}
+#underhead {
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+    max-width: 100%;
+    height: 100vh;
+}
+h3{
+    color: #0098d3;
+    border-bottom: solid 2px #0098d3;
+    border-top: solid 2px #0098d3;
+}
+.docs-header {
+    color: #6cdbff;
+}
+.docs-footer {
+    background-color: #0098d3;
+}
+.docs-footer a{
+    color: #6cdbff;
+}
+
+.fa.fa-M{
+    font-size: 2em;
+    color: #6cdbff;
+    float: right;
+    padding: 5px;
+    margin-top: -7px;
+}
+.fa.fa-M:hover {
+    font-size: 2em;
+    color: #ffffff;
+    float: right;
+    padding: 5px;
+    margin-top: -7px;
+}
+.fa.fa-B{
+    font-size: 7em;
+    color: #0098d3;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+a:focus, a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+.imgmod{
+    height:25px;
+    width: auto;
+}
+
