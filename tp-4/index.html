@@ -12,6 +12,10 @@
     <link href="custom.css" rel="stylesheet">
     <!--font-awesome-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!--googleapis-->
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Reenie+Beanie:regular">
+
+
 </head>
 <body>
 
@@ -20,9 +24,8 @@
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <button class="navbar-toggle" type="button" data-toggle="collapse" aria-expanded="false"
-                    data-target="#menu">
-                <span class="sr-only">Toggle</span>
+            <button class="navbar-toggle" type="button" data-toggle="collapse" aria-expanded="false" data-target="#menu">
+                <span class="sr-only">Toggle navbar</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -30,16 +33,16 @@
             <a href="#top" class="navbar-brand">Manche Open School</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <nav class="navbar-collapse collapse in" id="menu">
+        <nav class="navbar-collapse collapse" id="menu">
             <ul class="nav navbar-nav">
                 <li>
                     <a href="#underhead">Concept</a>
                 </li>
                 <li>
-                    <a href="#">Le programme</a>
+                    <a href="#prog">Le programme</a>
                 </li>
                 <li>
-                    <a href="#">Inscriptions</a>
+                    <a href="#inscr">Inscriptions</a>
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -52,137 +55,232 @@
     </div>
 </nav>
 <!--inhead-->
-<div class="docs-header text-center" id="head">
-    <div class="container-fluid">
-        <h1>MOS</h1>
-
-        <p>think twice, code once !</p>
-    </div>
-</div>
-<div class="container">
-    <div class="col-md-9">
-<!--concept and informations-->
-    <div class="row " id="underhead">
-        <div class="col-md-12 col-xs-12" >
-            <span class="fa fa-info fa-B"></span>
-
-            <h3>Concept</h3>
-        </div>
+<section id="head">
+    <div class="container-fluid docs-header text-center">
         <div class="row">
             <div class="col-md-12">
-                <p>Né d'une constation, la <b>Manche Open School</b> à pour but de d'accompagner et de former les
-                    <b>responsables numerique</b> de demain. La formation proposée repose avant tout sur la motivation
-                    des participants! En effet, il n'y a aucunes exigences pour rejoindre la formation.
-                    La <b>MOS</b> se veut avant tout <b>"OPEN"</b>.
+                <h1>MOS</h1>
+                <br/>
+                <br/>
+
+                <p>think twice, code once !</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <img class="img-responsive img-circle" style="margin:auto" src="images/yannick-.png">
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive img-circle" style="margin:auto" src="images/willy-.png">
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive img-circle" style="margin:auto" src="images/fx-.png">
+            </div>
+        </div>
+        <div class="row rolemos">
+            <div class="col-md-4">
+                <p>Yannick SEILLER</p>
+                <h2>Président</h2>
+            </div>
+            <div class="col-md-4">
+                <p>Willy LELOUTRE</p>
+                <h2>Vice président</h2>
+            </div>
+            <div class="col-md-4">
+                <p>FX GUIDET</p>
+                <h2>Trésorier</h2>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!--concept and informations-->
+<section id="underhead">
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="row">
+                <div class="col-md-12 col-xs-12">
+                    <span class="fa fa-info-circle fa-B"></span>
+
+                    <h3>Concept</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-xs-12">
+                    <p>Né d'une constation, la <b>Manche Open School</b> à pour but de d'accompagner et de former
+                        les
+                        <b>responsables numerique</b> de demain. La formation proposée repose avant tout sur la
+                        motivation
+                        des participants! En effet, il n'y a aucunes exigences pour rejoindre la formation.
+                        La <b>MOS</b> se veut avant tout <b>"OPEN"</b>.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Former</h3>
+                <span class="fa fa-check-square-o fa-B"></span>
+            </div>
+            <div class="col-md-4">
+                <h3>Accompagner</h3>
+                <span class="fa fa-check-square-o fa-B"></span>
+            </div>
+            <div class="col-md-4">
+                <h3>Responsabiliser</h3>
+                <span class="fa fa-check-square-o fa-B"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <p>La <b>Manche Open School</b> à pour but de former les dévellopeurs de demain.
+                    Forcer de constater qu'aujourd'hui <b>le marché de l'emploi</b> a de plus en plus de
+                    besoin
+                    dans
+                    le monde <b>numérique</b>.
+                    En effet,sur le territoire, <b>en 2014</b> ce sont près de <b>50000 postes</b>qui sont
+                    restés
+                    non pourvus.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p>La <b>Manche Open School</b> à aussi un role d'<b>accompagnement</b>.
+                    Dans un premier temps, les élèves sont <b>initiés</b> aux différents outils et méthodes
+                    avant
+                    d'être confrontés à des cas plus concrets.
+                    Toute une <b>infrastructure</b> est à leur disposition afin de les <b>aider</b> tout au
+                    long
+                    de
+                    leur <b>formation</b>.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p>Afin de responsabiliser au maximum tout ses étudiants la <b>Manche Open School</b> à fait
+                    le
+                    choix d'une méthode de formation libre.
+                    Nécéssitant avant tout d'être <b>motivé et curieux</b> cette méthode à pour but
+                    d'obliger
+                    les
+                    étudiants à <b>chercher</b> les informations nécessaire à l'achevement des
+                    <b>différents projets</b> qui leurs sont présentés.
                 </p>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3>Former</h3>
-                    <span class="fa fa-check-square-o fa-B"></span>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <p>La <b>Manche Open School</b> à pour but de former les dévellopeurs de demain.
-                        Forcer de constater qu'aujourd'hui <b>le marché de l'emploi</b> a de plus en plus de besoin dans
-                        le monde <b>numérique</b>.
-                        En effet,sur le territoire, <b>en 2014</b> ce sont près de <b>50000 postes</b>qui sont restés
-                        non pourvus.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="row">
-                <div class="col-md-12 ">
-                    <h3>Responsabiliser</h3>
-                    <span class="fa fa-check-square-o fa-B"></span>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <p>Afin de responsabiliser au maximum tout ses étudiants la <b>Manche Open School</b> à fait le
-                        choix d'une méthode de formation libre.
-                        Nécéssitant avant tout d'être <b>motivé et curieux</b> cette méthode à pour but d'obliger les
-                        étudiants à <b>chercher</b> les informations nécessaire à l'achevement des
-                        <b>différents projets</b> qui leurs sont présentés.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3>Accompagner</h3>
-                    <span class="fa fa-check-square-o fa-B"></span>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <p>La <b>Manche Open School</b> à aussi un role d'<b>accompagnement</b>.
-                        Dans un premier temps, les élèves sont <b>initiés</b> aux différents outils et méthodes avant
-                        d'être confrontés à des cas plus concrets.
-                        Toute une <b>infrastructure</b> est à leur disposition afin de les <b>aider</b> tout au long de
-                        leur <b>formation</b>.
-                    </p>
-                </div>
-            </div>
+
+    </div>
+</section>
+<!--Programme-->
+<section id="prog">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Le Programme</h2>
+            <br/>
+            <br/>
+
+            <p><b>Durée de la formation</b> : 8 mois dont 2 mois de stage (dates à définir)</p>
+            <br/>
+
+            <p><b>Organisation</b> : 1 jour théorique / 4 jours pratiques</p>
+            <br/>
+
+            <p><b>Répartition du temps</b> : Formation sur 35H semaine du lundi au vendredi</p>
+            <br/>
+            <a href="http://www.mancheopenschool.fr/wp-content/uploads/2015/05/Plan_Formation_MoS.pdf">
+                <b>TELECHARGER LE PROGRAMME EN PDF</b></a>
         </div>
     </div>
+</section>
+<!--Inscription-->
+<section id="inscr">
+    <div class="row text-center">
+        <div class="col-md-12">
+            <h2>Inscription</h2>
+            <br/>
+
+            <p><b>La session du 21/09/15 est à présent remplie.</b></p>
+            <br/>
+
+            <p>Nous <b>remercions</b> tous ceux et celles qui ont porté de <b>l’intérêt</b> à la <b>MoS</b>.</p>
+            <br/>
+
+            <p><b>Rendez vous en 2016 pour la prochaine session !</b> pour la prochaine session !</p>
+            <br/>
+        </div>
     </div>
-    <div class="col-md-3" id="events">
-        <div class="list-group" >
-            <a class="list-group-item">
-                <h5 class="list-group-item-heading">Evénements</h5>
-            </a>
-            <a class="list-group-item">
-                <h5 class="list-group-item-heading">Le 05/05/2015</h5>
-                <p> La MoS embauche un(e) assistant(e) de formation. Pour en savoir plus, s’adresser au pole emploi de Granville.</p>
-            </a>
-            <a class="list-group-item">
-                <h5 class="list-group-item-heading">Le 02/06/2015</h5>
-                <p>La MoS effectuera une présentation de son action auprès des entreprises du pays granvillais, lors de l’assemblée générale du groupement Initiatives Granville Terre & Mer.</p>
-            </a>
-            <a class="list-group-item">
-                <h5 class="list-group-item-heading">Le 29/06/2015</h5>
-                <p>Information collective et recrutement au pôle emploi Granville</p>
-            </a>
-            <a class="list-group-item">
-                <h5 class="list-group-item-heading">Le 07/09/2015</h5>
-                <p>Sélection finale des candidats – attention, seulement 20 places à pourvoir !
-                    <br />Information collective et recrutement au pôle emploi Granville « Bis »</p>
-            </a>
-            <a class="list-group-item">
-                <h5 class="list-group-item-heading">Le 16/09/2015</h5>
-                <p>Hackathon @Elysée ! La MoS participe</p>
-            </a>
-            <a class="list-group-item">
-                <h5 class="list-group-item-heading">Le 21/09/2015</h5>
-                <p>Première rentrée de la MoS</p>
-            </a>
+</section>
+<!--Evenements-->
+<section id="events">
+    <div class="row">
+        <div class="col-md-12 list-group">
+            <p>
+            <h4 class="list-group-item-heading">Evénements</h4>
+            </p>
+        </div>
+<!-- NEW section Here -->
+
+        <!--section exemple -->
+        <div class="col-md-2">
             <a class="list-group-item">
                 <h5 class="list-group-item-heading">Le 29/10/2015</h5>
-                <p>Inauguration officielle de la MoS</p>
-            </a>
-        </div>
-    </div>
-</div>
 
+                <p>Inauguration officielle de la MoS</p>
+            </a></div>
+        <!--end of section exemple-->
+
+        <div class="col-md-2">
+            <a class="list-group-item">
+                <h5 class="list-group-item-heading">Le 21/09/2015</h5>
+
+                <p>Première rentrée de la MoS</p>
+            </a></div>
+        <div class="col-md-2">
+            <a class="list-group-item">
+                <h5 class="list-group-item-heading">Le 16/09/2015</h5>
+
+                <p>Hackathon @Elysée ! La MoS participe</p>
+            </a></div>
+        <div class="col-md-2">
+            <a class="list-group-item">
+                <h5 class="list-group-item-heading">Le 07/09/2015</h5>
+
+                <p>Sélection finale des candidats – attention, seulement 20 places à pourvoir !
+                    <br/>Information collective et recrutement au pôle emploi Granville « Bis »</p>
+            </a></div>
+        <div class="col-md-2">
+            <a class="list-group-item">
+                <h5 class="list-group-item-heading">Le 29/06/2015</h5>
+
+                <p>Information collective et recrutement au pôle emploi Granville</p>
+            </a></div>
+        <div class="col-md-2">
+            <a class="list-group-item">
+                <h5 class="list-group-item-heading">Le 02/06/2015</h5>
+
+                <p>La MoS effectuera une présentation de son action auprès des entreprises du pays granvillais, lors
+                    de
+                    l’assemblée générale du groupement Initiatives Granville Terre & Mer.</p>
+            </a></div>
+        <div class="col-md-2">
+            <a class="list-group-item">
+                <h5 class="list-group-item-heading">Le 05/05/2015</h5>
+
+                <p> La MoS embauche un(e) assistant(e) de formation. Pour en savoir plus, s’adresser au pole emploi
+                    de
+                    Granville.</p>
+            </a></div>
+    </div>
+</section>
 <!--footer-->
 <footer class="docs-footer navbar-fixed-bottom" role="contentinfo" id="foot">
     <div class="container-fluid">
-        <div class="social">
-            <ul class="social-buttons">
-                <a href="https://twitter.com/50_open_school">
-                    <i class="fa fa-twitter-square fa-M"></i>
-                </a>
-                <a href="https://www.facebook.com/pages/Manch-Open-School/907657159297010">
-                    <i class="fa fa-facebook fa-M"></i>
-                </a>
-            </ul>
+        <div class="social social-button">
+            <a href="https://twitter.com/50_open_school">
+                <i class="fa fa-twitter-square fa-M"></i>
+            </a>
+            <a href="https://www.facebook.com/pages/Manch-Open-School/907657159297010">
+                <i class="fa fa-facebook fa-M"></i>
+            </a>
         </div>
         <p>Designed and built with love by <a href="#modaldsg" data-toggle="modal">Les Bulots Codeurs</a></p>
     </div>
@@ -195,30 +293,32 @@
                 <h3>Les Bulots Codeurs</h3>
 
                 <p><b>PREMIERE MOUTURE</b></p>
+
+                <p>Octobre 2015</p>
             </div>
             <div class="modal-body">
                 <div class="row">
                     <div class="col-md-6">
-                        <img class="imgmod" src="images/Bulot-800x800.png">
+                        <img class="imgmod" src="images/guitou-.png">
 
-                        <p>Identité1</p>
+                        <p>Guillaume FLOCH</p>
                     </div>
                     <div class="col-md-6">
-                        <img class="imgmod" src="images/Bulot-800x800.png">
+                        <img class="imgmod" src="images/thomas-.png">
 
-                        <p>Identité2</p>
+                        <p>Thomas KABECHE</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <img class="imgmod" src="images/Bulot-800x800.png">
+                        <img class="imgmod" src="images/maryline-.png">
 
-                        <p>Identité3</p>
+                        <p>Maryline PETITJEAN</p>
                     </div>
                     <div class="col-md-6">
-                        <img class="imgmod" src="images/Bulot-800x800.png">
+                        <img class="imgmod" src="images/Cyril-.png">
 
-                        <p>Identité4</p>
+                        <p>Cyril LAUDET</p>
                     </div>
                 </div>
             </div>
@@ -233,6 +333,5 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
-<script src="custom.js"></script>
 </body>
 </html>
