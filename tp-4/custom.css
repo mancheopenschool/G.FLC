@@ -9,7 +9,7 @@ section{
 #head{
     background-color: #0098d3;
     padding: 30px;
-    margin-top: 50px;
+    margin-top: 15px;
     }
 #head p {
     font-size: 50px;
@@ -135,22 +135,26 @@ h4{
 }
 .docs-footer {
     background-color: #0098d3;
+    height: 50px;
 }
 .docs-footer a{
     color: #FFFFFF;
     font-family: "Reenie Beanie", arial, sans-serif;
     font-size: 25px;
-
 }
+.docs-footer P{
+  margin-top: 7px;
+}
+
 .rolemos h2{
     margin-top: 0;
 }
 .fa.fa-M{
-    font-size: 2em;
+    font-size: 30px;
     color: #6cdbff;
     float: right;
     padding: 5px;
-    margin-top: -7px;
+    margin-top: 7px;
 }
 .fa.fa-M:hover {
     color: #ffffff;
@@ -177,6 +181,28 @@ a:focus, a:hover {
     height:35px;
     width: auto;
 }
+#modalheader img{
+    height: 50px;
+    width: auto;
+    border-radius: 100%;
+    margin: 5px 0 5px;
+}
+.modal-footer{
+    position: relative;
+}
+.modal-footer img{
+    height: 34px;
+    width: auto;
+    position: absolute;
+    left: 0;
+    padding:6;
+    border: 1;
+}
+.modal-footer p{
+    position: absolute;
+    height: 25px;
+    left: 45px;
+}
 body{
     margin-bottom: 75px;
 }
@@ -193,6 +219,20 @@ a.list-group-item {
 }
 .modal-body p{
     font-family: "Reenie Beanie", arial, sans-serif;
-    font-size: 25px;
+    font-size: 20px;
 }
-
+.modal-body{
+    padding-bottom: 0;
+}
+#info p{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+#info .fa-M {
+    margin-top: 35%;
+    font-size: 50px;
+}
+#info .fa-M:hover {
+    color: #ffffff;
+}
