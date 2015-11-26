@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <title>Quizz MOS</title>
+</head>
+<body>
+<h1>Quizz</h1>
+
+<script type="text/javaScript">
+
+    var question = [
+            "Année d'inauguration de la Manche Open School?",// !!  id=0 on part toujours de zero
+            "Minimum requis pour la formation?",// !!  id=1
+            "Surnom des participants à la formation?"//  !!  id=2
+    ];
+
+    var reponse = [
+            ["2014","2015","2013"],//tableau type : [0][0] , 01 , 02
+            ["être motivé","niveau bac","au moins connaitre Linux"],//rep q2 id=1     10 ,    11 , 12
+            ["Les huitres codeuses","Les poulpes codeurs","Les bulots codeurs"] //rep q3 id=2     20 ,    21 , 22 ...
+    ];
+    var repOk = [
+            "2015",
+            "être motivé",
+            "Les bulots codeurs"
+    ];
+
+
+    $(document).ready(function(){
+        for (i = 0; i < question.length; i++){
+            var questionFor = question[i];
+
+            for (e = i; e < reponse.array; e++){
+                var reponseFor = reponse[e]
+            }
+            $('<p>' + questionFor + reponseFor +'</p>').appendTo($('h1'));
+
+        }
+    });
+
+</script>
+</body>
+</html>
+
+<!-- Première idée
+
+function modifierText(texte)// rep : bonne ou mauvaise
+    {
+        document.getElementById("text").innerHTML = texte;
+    }
+
+    function tester(choix)// vérification
+    {
+        if (choix[1].checked)
+        {
+            modifierText("Bonne réponse");
+
+        }
+        else if (choix[0].checked || choix[2].checked )
+        {
+            modifierText("Mauvaise réponse");
+
+        }
+        else {
+            alert("Veuillez selectionner une réponse");
+        }
+    }
+
+
+
+
+
+    <form name="QCM">
+        <input type="radio" name="choix" value="choix1"/>2012<br/>
+        <input type="radio" name="choix" value="choix2"/>2015<br/>
+        <input type="radio" name="choix" value="choix3"/>2014<br/>
+        <input type="button" value="Valider" onclick="tester(this.form.choix)"/>
+    </form>
+-->

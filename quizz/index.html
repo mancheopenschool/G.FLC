@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <title>Quizz MOS</title>
+</head>
+<body>
+<h1>Quizz</h1>
+
+<script type="text/javaScript">
+//nQ numero
+//Qu question
+//Re correct
+//rep proposition
+$(document).ready(function () {
+
+    $.getJSON('tab.json', function (json) {
+        var totalQ = Object.keys(json).length;
+        for (var i = 1; i <= totalQ; i++) {
+
+            $('<p class=quest>' + json[i].Qu + '</p>').appendTo($('h1'));
+
+            var nbRep = Object.keys(json[i]['rep']).length;
+            for (var e = 0; e < nbRep; e++) {
+                $('<input type="radio" name="' + json[i].nQ + '" checked value="' + json[i].rep[e] + '"> ' + json[i].rep[e] + '<br />').appendTo($('h1'));
+            }
+        }
+    });
+
+});
+</script>
+</body>
+</html>
