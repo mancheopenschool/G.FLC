@@ -1,25 +1,32 @@
 {
-  "1":
-  {
+  "1": {
     "nQ": "1",
-    "Qu": "En quelle année l'inauguration de la Manche Open School à eu lieu ?",
-    "Re": "2015",
-    "rep": ["2014", "2015", "2013"]
+    "Q": "En quelle année l'inauguration de la Manche Open School à eu lieu ?",
+    "R": "2015",
+    "r": [
+      "2014",
+      "2015",
+      "2013"
+    ]
   },
-
-  "2":
-  {
+  "2": {
     "nQ": "2",
-    "Qu": "Comment sont surnommés les participants à la formation ?",
-    "Re": "Bulots codeurs",
-    "rep": ["Poulpes codeurs", "Crabes codeurs", "Bulots codeurs"]
+    "Q": "Comment sont surnommés les participants à la formation ?",
+    "R": "Bulots codeurs",
+    "r": [
+      "Poulpes codeurs",
+      "Crabes codeurs",
+      "Bulots codeurs"
+    ]
   },
-
-  "3":
-  {
+  "3": {
     "nQ": "3",
-    "Qu": "Quel est le critère necessaire afin d'acceder à la formation?",
-    "Re": "La motivation",
-    "rep": ["La motivation", "Connaître Linux ", "Un niveau bac"]
+    "Q": "Quel est le critère necessaire afin d'acceder à la formation?",
+    "R": "La motivation",
+    "r": [
+      "La motivation",
+      "Connaître Linux ",
+      "Un niveau bac"
+    ]
   }
 }
