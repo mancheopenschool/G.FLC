@@ -1,7 +1,3 @@
-/**
- * Created by guitou on 26/11/15.
- */
-
     // nQ = Numéro question
     // Q = Question
     // R = Réponse réelle
